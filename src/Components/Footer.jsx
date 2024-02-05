@@ -12,7 +12,7 @@ const Footer = () => {
                   <a href="#" class="text-[22px] focus:outline-none">
                     <img
                       class="h-12"
-                      src="https://res.cloudinary.com/daiyj7fxl/image/upload/v1676395206/Logo/NAV-BROWN_qbsht2.svg"
+                      src="https://i.ibb.co/Cvh4S8f/logo.png"
                       alt=""
                     />
                   </a>
@@ -87,7 +87,7 @@ const Footer = () => {
                   <ul class="list-none  mt-6">
                     <li>
                       <a
-                        href="#"
+                        href="/about-us"
                         class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"
                       >
                         About us
@@ -129,7 +129,7 @@ const Footer = () => {
         <div class="container mx-auto px-6 text-center">
           <div class="grid md:grid-cols-2 items-center">
             <div class="md:text-left text-center">
-              <p class="mb-0">&copy; 2024 Indian Essential Oil</p>
+              <p class="mb-0">&copy; 2024 Crystal Aromatics</p>
             </div>
           </div>
         </div>

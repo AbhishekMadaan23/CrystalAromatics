@@ -19,13 +19,13 @@ const products = [
   {
     name: "Essential Oils",
     description: "",
-    href: "#",
+    href: "/essential-oils",
     icon: CursorArrowRaysIcon,
   },
   {
     name: "Absolutes",
     description: "",
-    href: "#",
+    href: "/absolutes",
     icon: CursorArrowRaysIcon,
   },
   {
@@ -91,12 +91,6 @@ export default function Navbar() {
   }, []);
 
   return (
-    // <header className="fixed w-full top-13 bg-white bg-opacity-50 z-10 shadow">
-    // <header
-    //   className={`w-full  bg-white bg-opacity-80 z-10 shadow ${
-    //     isTop ? "absolute" : "fixed"
-    //   } ${isTop ? "top-17  md:top-17 lg:top-11 xl:top-11" : "top-0"}`}
-    // >
     <header
       className={`w-full  bg-white bg-opacity-80 z-10 shadow ${
         isTop ? "relative" : "fixed"
@@ -107,18 +101,7 @@ export default function Navbar() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          {/* <a href="#" className="-m-1.5 p-1.5">
-            <img className="h-8 w-auto" src="https://ibb.co/RPztJbq" alt="" />
-          </a> */}
-          {/* <a href="#" className="-m-1.5 p-1.5">
-            <img
-              className="h-8 w-auto"
-              src="https://i.ibb.co/RPztJbq/logo.png"
-              alt="logo"
-              border="0"
-            />
-          </a> */}
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <img
               className="h-16 w-40 bg-cover bg-center absolute top-1/2 transform -translate-y-1/2"
               src="https://i.ibb.co/Cvh4S8f/logo.png"
@@ -139,7 +122,7 @@ export default function Navbar() {
         </div>
 
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-lg font-semibold leading-6 text-gray-900">
+          <a href="/" className="text-lg font-semibold leading-6 text-gray-900">
             Home
           </a>
           <Popover className="relative">
@@ -190,18 +173,17 @@ export default function Navbar() {
             </Transition>
           </Popover>
 
-          <a href="#" className="text-lg font-semibold leading-6 text-gray-900">
+          <a
+            href="/about-us"
+            className="text-lg font-semibold leading-6 text-gray-900"
+          >
             About us
           </a>
           <a href="#" className="text-lg font-semibold leading-6 text-gray-900">
             Get in touch
           </a>
         </Popover.Group>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Log in <span aria-hidden="true">&rarr;</span>
-          </a>
-        </div>
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end"></div>
       </nav>
       <Dialog
         as="div"
@@ -212,14 +194,6 @@ export default function Navbar() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            {/* <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-              />
-            </a> */}
             <a href="#" className="-m-1.5 p-1.5">
               <img
                 className="h-24 w-auto absolute transform -translate-y-1/2"
@@ -285,14 +259,6 @@ export default function Navbar() {
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Get in touch
-                </a>
-              </div>
-              <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Log in
                 </a>
               </div>
             </div>

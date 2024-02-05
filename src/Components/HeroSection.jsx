@@ -181,9 +181,9 @@ const HeroSection = () => {
             ❮
           </button>
 
-          <div class="absolute h-20 lg:h-40 top-1/2 left-5 bg-slate-600 bg-opacity-50 text-white py-10 lg:py-20">
+          <div class="absolute h-20 lg:h-40 mt-9 top-1/2 left-5 bg-slate-600 bg-opacity-50 text-white py-10 lg:py-20">
             <h1 class="text-2xl h-full lg:text-5xl font-bold text-left font-sans animate-fade-in">
-              Indian Essential Oils
+              CRYSTAL AROMATICS
             </h1>
           </div>
         </div>
