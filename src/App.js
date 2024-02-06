@@ -13,6 +13,8 @@ import FlowerOilPage from "./Pages/FlowerOilPage";
 import SpiceOilPage from "./Pages/SpiceOilPage";
 import FragrancesAndFlavoursPage from "./Pages/FragrancesAndFlavoursPage";
 import AromaticChemicalsPage from "./Pages/AromaticChemicalsPage";
+import GetInTouchPage from "./Pages/GetInTouchPage";
+import ProductsPage from "./Pages/ProductsPage";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route path="/about-us" element={<About />} />
+          <Route path="/get-in-touch" element={<GetInTouchPage />} />
+          <Route path="/products" element={<ProductsPage />} />
           <Route path="/absolutes" element={<AbsolutesPage />} />
           <Route path="/essential-oils" element={<EssentialOilPage />} />
           <Route path="/aromatherapy-oils" element={<AromatherapyOilPage />} />

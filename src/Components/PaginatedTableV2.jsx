@@ -45,7 +45,7 @@ const PaginatedTable = ({ Heading, data }) => {
               S. No.
             </th>
             <th className="px-6 py-3 text-center text-lg  md:text-xl font-bold text-gray-700 uppercase tracking-wider">
-              Essential Oils
+              {Heading}
             </th>
           </tr>
         </thead>

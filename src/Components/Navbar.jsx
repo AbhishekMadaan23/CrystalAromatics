@@ -179,7 +179,10 @@ export default function Navbar() {
           >
             About us
           </a>
-          <a href="#" className="text-lg font-semibold leading-6 text-gray-900">
+          <a
+            href="/get-in-touch"
+            className="text-lg font-semibold leading-6 text-gray-900"
+          >
             Get in touch
           </a>
         </Popover.Group>
@@ -240,19 +243,19 @@ export default function Navbar() {
                   )}
                 </Disclosure>
                 <a
-                  href="#"
+                  href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Home
                 </a>
                 <a
-                  href="#"
+                  href="/about-us"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   About us
                 </a>
                 <a
-                  href="#"
+                  href="/get-in-touch"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Get in touch

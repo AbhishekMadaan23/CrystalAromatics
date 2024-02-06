@@ -908,118 +908,1016 @@ export { AbsolutesData };
 const AromatherapyOilData = [
   {
     id: 1,
-    essentialName: "Stress Buster Massage Oil",
+    essentialName: "On the Basis of Emotional Well Being",
     botanicalName: "",
   },
   {
     id: 2,
-    essentialName: "Stress Buster Bath",
+    essentialName: "Stress Buster Massage Oil",
     botanicalName: "",
   },
   {
     id: 3,
-    essentialName: "Mental Re-energizer Bath",
+    essentialName: "Stress Buster Bath",
     botanicalName: "",
   },
   {
     id: 4,
-    essentialName: "Exam Tonic",
+    essentialName: "Mental Re-energizer Bath",
     botanicalName: "",
   },
   {
     id: 5,
-    essentialName: "Aphrodisiac Massage Oil",
+    essentialName: "Exam Tonic",
     botanicalName: "",
   },
   {
     id: 6,
-    essentialName: "Calming Bath",
+    essentialName: "Aphrodisiac Massage Oil",
     botanicalName: "",
   },
   {
     id: 7,
-    essentialName: "Alive Mind",
+    essentialName: "Calming Bath",
     botanicalName: "",
   },
   {
     id: 8,
-    essentialName: "Energy",
+    essentialName: "Alive Mind",
     botanicalName: "",
   },
   {
     id: 9,
-    essentialName: "Grief Support",
+    essentialName: "Energy",
     botanicalName: "",
   },
   {
     id: 10,
-    essentialName: "Happiness",
+    essentialName: "Grief Support",
     botanicalName: "",
   },
   {
     id: 11,
-    essentialName: "Beat the Winter Blues Bath",
+    essentialName: "Happiness",
     botanicalName: "",
   },
   {
     id: 12,
-    essentialName: "Hers Alone",
+    essentialName: "Beat the Winter Blues Bath",
     botanicalName: "",
   },
   {
     id: 13,
-    essentialName: "Immune Boost",
+    essentialName: "Hers Alone",
     botanicalName: "",
   },
   {
     id: 14,
-    essentialName: "Inner Light",
+    essentialName: "Immune Boost",
     botanicalName: "",
   },
   {
     id: 15,
-    essentialName: "Joy & Harmony",
+    essentialName: "Inner Light",
     botanicalName: "",
   },
   {
     id: 16,
-    essentialName: "Mental Clarity",
+    essentialName: "Joy & Harmony",
     botanicalName: "",
   },
   {
     id: 17,
-    essentialName: "Relaxing",
+    essentialName: "Mental Clarity",
     botanicalName: "",
   },
   {
     id: 18,
-    essentialName: "Sensuality",
+    essentialName: "Relaxing",
     botanicalName: "",
   },
   {
     id: 19,
-    essentialName: "Sensuous",
+    essentialName: "Sensuality",
     botanicalName: "",
   },
   {
     id: 20,
-    essentialName: "Sleepy Time",
+    essentialName: "Sensuous",
     botanicalName: "",
   },
   {
     id: 21,
-    essentialName: "Sports",
+    essentialName: "Sleepy Time",
     botanicalName: "",
   },
   {
     id: 22,
-    essentialName: "Meditation",
+    essentialName: "Sports",
     botanicalName: "",
   },
   {
     id: 23,
+    essentialName: "Meditation",
+    botanicalName: "",
+  },
+  {
+    id: 24,
     essentialName: "Invigorating",
     botanicalName: "",
   },
+  {
+    id: 25,
+    essentialName: "On the Basis Of Physical Well Being",
+  },
+  {
+    id: 26,
+    essentialName: "Nasal Congestion Bath",
+    botanicalName: "",
+  },
+  {
+    id: 27,
+    essentialName: "Head Clearing Steam",
+    botanicalName: "",
+  },
+  {
+    id: 28,
+    essentialName: "Warming Bath",
+    botanicalName: "",
+  },
+  {
+    id: 29,
+    essentialName: "Constipation Relief Massage",
+    botanicalName: "",
+  },
+  {
+    id: 30,
+    essentialName: "Headache Relief Massage",
+    botanicalName: "",
+  },
+  {
+    id: 31,
+    essentialName: "Muscle Soothing Bath",
+    botanicalName: "",
+  },
+  {
+    id: 32,
+    essentialName: "Muscle Rub Massage",
+    botanicalName: "",
+  },
+  {
+    id: 33,
+    essentialName: "Sleep Inducing Massage Oil",
+    botanicalName: "",
+  },
+  {
+    id: 34,
+    essentialName: "Sleepy Head Bath Blend",
+    botanicalName: "",
+  },
+  {
+    id: 35,
+    essentialName: "Premenstrual Tension Buster Massage Oil",
+    botanicalName: "",
+  },
+  {
+    id: 36,
+    essentialName: "Over Indulgence Fixer Bath",
+    botanicalName: "",
+  },
+  //
+  {
+    id: 37,
+    essentialName: "For Skin Care & Beauty",
+    botanicalName: "",
+  },
+
+  {
+    id: 38,
+    essentialName: "Beat the Wrinkle Mature Skin Cream",
+  },
+  {
+    id: 39,
+    essentialName: "Nourishing Dry Skin Cream",
+  },
+  {
+    id: 40,
+    essentialName: "Brighten up Skin Cream for Dull & Congested Skin",
+  },
+  {
+    id: 41,
+    essentialName: "Eczema Relief Massage Oil",
+  },
+  {
+    id: 42,
+    essentialName: "Flake Clean / Anti Dandruff",
+    botanicalName: "",
+  },
+  {
+    id: 43,
+    essentialName: "Hair Nourishing",
+    botanicalName: "",
+  },
+  {
+    id: 44,
+    essentialName: "Dry Skin",
+    botanicalName: "",
+  },
+  {
+    id: 45,
+    essentialName: "Mature / Wrinkle Oil",
+    botanicalName: "",
+  },
+  {
+    id: 46,
+    essentialName: "Oily Skin",
+    botanicalName: "",
+  },
+  {
+    id: 47,
+    essentialName: "Golden Glow",
+    botanicalName: "",
+  },
+  {
+    id: 48,
+    essentialName: "Black Heads",
+    botanicalName: "",
+  },
+  {
+    id: 49,
+    essentialName: "Cracked / Chapped Skin",
+    botanicalName: "",
+  },
+  {
+    id: 50,
+    essentialName: "Devitalised Skin",
+    botanicalName: "",
+  },
+  {
+    id: 51,
+    essentialName: "Acne Prone",
+    botanicalName: "",
+  },
+  {
+    id: 52,
+    essentialName: "Astringent",
+    botanicalName: "",
+  },
+  {
+    id: 53,
+    essentialName: "Cleansing",
+    botanicalName: "",
+  },
+  {
+    id: 54,
+    essentialName: "Eczema",
+    botanicalName: "",
+  },
+  {
+    id: 55,
+    essentialName: "Itching",
+    botanicalName: "",
+  },
+  {
+    id: 56,
+    essentialName: "Pimples",
+    botanicalName: "",
+  },
+  {
+    id: 57,
+    essentialName: "Puffness",
+    botanicalName: "",
+  },
+  {
+    id: 58,
+    essentialName: "Scar",
+    botanicalName: "",
+  },
+  {
+    id: 59,
+    essentialName: "Skin Toner",
+    botanicalName: "",
+  },
+  {
+    id: 60,
+    essentialName: "Cellulite",
+    botanicalName: "",
+  },
+  {
+    id: 61,
+    essentialName: "Attention",
+    botanicalName: "",
+  },
+  {
+    id: 62,
+    essentialName: "Recharge",
+    botanicalName: "",
+  },
+  {
+    id: 63,
+    essentialName: "Be Alert",
+    botanicalName: "",
+  },
+  {
+    id: 64,
+    essentialName: "Clear your head",
+    botanicalName: "",
+  },
+  {
+    id: 65,
+    essentialName: "Vitality Two",
+    botanicalName: "",
+  },
+  {
+    id: 66,
+    essentialName: "Sensuality Two",
+    botanicalName: "",
+  },
+  {
+    id: 67,
+    essentialName: "Sensuality Three",
+    botanicalName: "",
+  },
+  {
+    id: 68,
+    essentialName: "Energy Two",
+    botanicalName: "",
+  },
+  {
+    id: 69,
+    essentialName: "Sensuality One",
+    botanicalName: "",
+  },
+  {
+    id: 70,
+    essentialName: "Relaxing One",
+    botanicalName: "",
+  },
+  {
+    id: 71,
+    essentialName: "Meditation",
+    botanicalName: "",
+  },
+  {
+    id: 72,
+    essentialName: "Invigorating",
+    botanicalName: "",
+  },
+  {
+    id: 73,
+    essentialName: "The Vatta Dosha (Symbol Air) Concentrate",
+    botanicalName: "",
+  },
+  {
+    id: 74,
+    essentialName: "The Kapha Dosha (Symbol Water) Concentrate",
+    botanicalName: "",
+  },
+  {
+    id: 75,
+    essentialName: "The Pitta Dosha (Symbol Fire) Concentrate",
+    botanicalName: "",
+  },
+  {
+    id: 76,
+    essentialName: "Vatta Massage Blend",
+    botanicalName: "",
+  },
+  {
+    id: 77,
+    essentialName: "Kapha Massage Blend",
+    botanicalName: "",
+  },
+  {
+    id: 78,
+    essentialName: "Pitta Massage Blend",
+    botanicalName: "",
+  },
+  {
+    id: 79,
+    essentialName: "Calming Pitta",
+    botanicalName: "",
+  },
+  {
+    id: 80,
+    essentialName: "Warming Kapha",
+    botanicalName: "",
+  },
+  {
+    id: 81,
+    essentialName: "Cooling Pitta",
+    botanicalName: "",
+  },
+  {
+    id: 82,
+    essentialName: "Calming Vatta",
+    botanicalName: "",
+  },
+  {
+    id: 83,
+    essentialName: "Warming Vatta",
+    botanicalName: "",
+  },
+  {
+    id: 84,
+    essentialName: "Stimulating Kapha",
+    botanicalName: "",
+  },
+  {
+    id: 85,
+    essentialName: "On The Basis of Zodiac Signs",
+    botanicalName: "",
+  },
+  {
+    id: 86,
+    essentialName: "Aries",
+    botanicalName: "",
+  },
+  {
+    id: 87,
+    essentialName: "Taurus",
+    botanicalName: "",
+  },
+  {
+    id: 88,
+    essentialName: "Gemini",
+    botanicalName: "",
+  },
+  {
+    id: 89,
+    essentialName: "Cancer",
+    botanicalName: "",
+  },
+  {
+    id: 90,
+    essentialName: "Leo",
+    botanicalName: "",
+  },
+  {
+    id: 91,
+    essentialName: "Virgo",
+    botanicalName: "",
+  },
+  {
+    id: 92,
+    essentialName: "Libra",
+    botanicalName: "",
+  },
+  {
+    id: 93,
+    essentialName: "Scorpio",
+    botanicalName: "",
+  },
+  {
+    id: 94,
+    essentialName: "Sagittarius",
+    botanicalName: "",
+  },
+  {
+    id: 95,
+    essentialName: "Capricorn",
+    botanicalName: "",
+  },
+  {
+    id: 96,
+    essentialName: "Aquarius",
+    botanicalName: "",
+  },
+  {
+    id: 97,
+    essentialName: "Pisces",
+    botanicalName: "",
+  },
+  {
+    id: 98,
+    essentialName: "On The Basis of Related Therapy",
+    botanicalName: "",
+  },
+  {
+    id: 99,
+    essentialName: "Rose Geranium",
+    botanicalName: "",
+  },
+  {
+    id: 100,
+    essentialName: "Jasmine Tangerine",
+    botanicalName: "",
+  },
+  {
+    id: 101,
+    essentialName: "Eucalyptus Black Pepper",
+    botanicalName: "",
+  },
+  {
+    id: 102,
+    essentialName: "Sandal Vetivert",
+    botanicalName: "",
+  },
+  {
+    id: 103,
+    essentialName: "Lavender Basil",
+    botanicalName: "",
+  },
+  {
+    id: 104,
+    essentialName: "Jasmine Mogra",
+    botanicalName: "",
+  },
+  {
+    id: 105,
+    essentialName: "Rose Mandarin",
+    botanicalName: "",
+  },
+  {
+    id: 106,
+    essentialName: "Bergamot Lime",
+    botanicalName: "",
+  },
+  {
+    id: 107,
+    essentialName: "Honey Vanilla",
+    botanicalName: "",
+  },
+  {
+    id: 108,
+    essentialName: "Jasmine Patchouli",
+    botanicalName: "",
+  },
+  {
+    id: 109,
+    essentialName: "Sandalwood Saffron",
+    botanicalName: "",
+  },
+  {
+    id: 110,
+    essentialName: "Rose Marigold",
+    botanicalName: "",
+  },
+  {
+    id: 111,
+    essentialName: "Lavender Neroli",
+    botanicalName: "",
+  },
+  {
+    id: 112,
+    essentialName: "Orange Cinnamon",
+    botanicalName: "",
+  },
+  {
+    id: 113,
+    essentialName: "Blends For Home",
+    botanicalName: "",
+  },
+  {
+    id: 114,
+    essentialName: "Festival Cheer Vapouriser Blend",
+    botanicalName: "",
+  },
+  {
+    id: 115,
+    essentialName: "Sensual Vapouriser Blend",
+    botanicalName: "",
+  },
+  {
+    id: 116,
+    essentialName: "Uplifting Vapouriser Blend",
+    botanicalName: "",
+  },
+  {
+    id: 117,
+    essentialName: "Bacteria Buster Vapouriser Blend",
+    botanicalName: "",
+  },
+  {
+    id: 118,
+    essentialName: "Apple Cinnamon",
+    botanicalName: "",
+  },
+  {
+    id: 119,
+    essentialName: "Pink Rose",
+    botanicalName: "",
+  },
+  {
+    id: 120,
+    essentialName: "Lavender MS",
+    botanicalName: "",
+  },
+  {
+    id: 121,
+    essentialName: "Sandal",
+    botanicalName: "",
+  },
+  {
+    id: 122,
+    essentialName: "Fruitbar",
+    botanicalName: "",
+  },
+  {
+    id: 123,
+    essentialName: "Peach",
+    botanicalName: "",
+  },
 ];
+
 export { AromatherapyOilData };
+
+const CarrierOilData = [
+  {
+    id: 1,
+    essentialName: "ALMOND OIL SWEET",
+    botanicalName: "",
+  },
+  {
+    id: 2,
+    essentialName: "MYRTLE",
+    botanicalName: "",
+  },
+  {
+    id: 3,
+    essentialName: "APRICOT KERNEL OIL",
+    botanicalName: "",
+  },
+  {
+    id: 4,
+    essentialName: "NEEM OIL (COLD PRESSED)",
+    botanicalName: "",
+  },
+  {
+    id: 5,
+    essentialName: "ARACHIS OIL",
+    botanicalName: "",
+  },
+  {
+    id: 6,
+    essentialName: "OLIVE OIL PURE",
+    botanicalName: "",
+  },
+  {
+    id: 7,
+    essentialName: "AVACADO OIL",
+    botanicalName: "",
+  },
+  {
+    id: 8,
+    essentialName: "OLIVE OIL VIRGIN",
+    botanicalName: "",
+  },
+  {
+    id: 9,
+    essentialName: "ALOE-VERA GEL",
+    botanicalName: "",
+  },
+  {
+    id: 10,
+    essentialName: "PUMPKIN SEED OIL",
+    botanicalName: "",
+  },
+  {
+    id: 11,
+    essentialName: "CALENDULA OIL",
+    botanicalName: "",
+  },
+  {
+    id: 12,
+    essentialName: "PEACH KERNEL OIL",
+    botanicalName: "",
+  },
+  {
+    id: 13,
+    essentialName: "CUCUMBER OIL",
+    botanicalName: "",
+  },
+  {
+    id: 14,
+    essentialName: "SESAME OIL (DEODORIZED / DECOLORIZED)",
+    botanicalName: "",
+  },
+  {
+    id: 15,
+    essentialName: "EVENING PRIMEROSE OIL",
+    botanicalName: "",
+  },
+  {
+    id: 16,
+    essentialName: "SUN FLOWER OIL",
+    botanicalName: "",
+  },
+  {
+    id: 17,
+    essentialName: "GRAPESEED OIL",
+    botanicalName: "",
+  },
+  {
+    id: 18,
+    essentialName: "WHEATGERM OIL",
+    botanicalName: "",
+  },
+  {
+    id: 19,
+    essentialName: "HAZELNUT OIL",
+    botanicalName: "",
+  },
+  {
+    id: 20,
+    essentialName: "WALNUT OIL",
+    botanicalName: "",
+  },
+  {
+    id: 21,
+    essentialName: "HEMPSEED OIL",
+    botanicalName: "",
+  },
+  {
+    id: 22,
+    essentialName: "WATER MELON OIL",
+    botanicalName: "",
+  },
+  {
+    id: 23,
+    essentialName: "JOJOBA OIL CLEAR (COLOUR LESS)",
+    botanicalName: "",
+  },
+  {
+    id: 24,
+    essentialName: "JOJOBA OIL YELLOW",
+    botanicalName: "",
+  },
+  {
+    id: 25,
+    essentialName: "LINSEED OIL (FLAX SEED)",
+    botanicalName: "",
+  },
+  {
+    id: 26,
+    essentialName: "OAT FLOUR",
+    botanicalName: "",
+  },
+  {
+    id: 27,
+    essentialName: "MUSK MELON OIL",
+    botanicalName: "",
+  },
+  {
+    id: 28,
+    essentialName: "WHOLE EGG POWDER",
+    botanicalName: "",
+  },
+  {
+    id: 29,
+    essentialName: "MORINGA OIL",
+    botanicalName: "",
+  },
+  {
+    id: 30,
+    essentialName: "MACADAMIA NUT OIL",
+    botanicalName: "",
+  },
+];
+
+export { CarrierOilData };
+
+const FlowerOilData = [
+  {
+    id: 1,
+    essentialName: "BLUE LOTUS",
+    botanicalName: "",
+  },
+  {
+    id: 2,
+    essentialName: "CARNATION",
+    botanicalName: "",
+  },
+  {
+    id: 3,
+    essentialName: "CHAMPACA",
+    botanicalName: "",
+  },
+  {
+    id: 4,
+    essentialName: "CHYPRE",
+    botanicalName: "",
+  },
+  {
+    id: 5,
+    essentialName: "CYCLAMEN",
+    botanicalName: "",
+  },
+  {
+    id: 6,
+    essentialName: "CARTHAMUS",
+    botanicalName: "",
+  },
+  {
+    id: 7,
+    essentialName: "FRANGIPANI",
+    botanicalName: "",
+  },
+  {
+    id: 8,
+    essentialName: "FOUGERE",
+    botanicalName: "",
+  },
+  {
+    id: 9,
+    essentialName: "GARDENIA",
+    botanicalName: "",
+  },
+  {
+    id: 10,
+    essentialName: "GINGER LILY",
+    botanicalName: "",
+  },
+  {
+    id: 11,
+    essentialName: "HELIOTROPE",
+    botanicalName: "",
+  },
+  {
+    id: 12,
+    essentialName: "HYACINTH",
+    botanicalName: "",
+  },
+  {
+    id: 13,
+    essentialName: "LINDEN BLOSSOM",
+    botanicalName: "",
+  },
+  {
+    id: 14,
+    essentialName: "LILIAC",
+    botanicalName: "",
+  },
+  {
+    id: 15,
+    essentialName: "LILY",
+    botanicalName: "",
+  },
+  {
+    id: 16,
+    essentialName: "LOTUS",
+    botanicalName: "",
+  },
+  {
+    id: 17,
+    essentialName: "MAGNOLIA",
+    botanicalName: "",
+  },
+  {
+    id: 18,
+    essentialName: "MUGUET",
+    botanicalName: "",
+  },
+  {
+    id: 19,
+    essentialName: "ORANGE BLOSSOM",
+    botanicalName: "",
+  },
+  {
+    id: 20,
+    essentialName: "ORCHID",
+    botanicalName: "",
+  },
+  {
+    id: 21,
+    essentialName: "OSMANTHUS",
+    botanicalName: "",
+  },
+  {
+    id: 22,
+    essentialName: "PINK LOTUS",
+    botanicalName: "",
+  },
+  {
+    id: 23,
+    essentialName: "RESEDA",
+    botanicalName: "",
+  },
+  {
+    id: 24,
+    essentialName: "TULIP",
+    botanicalName: "",
+  },
+  {
+    id: 25,
+    essentialName: "VIOLET",
+    botanicalName: "",
+  },
+  {
+    id: 26,
+    essentialName: "WALLFLOWER",
+    botanicalName: "",
+  },
+  {
+    id: 27,
+    essentialName: "WHITE LOTUS",
+    botanicalName: "",
+  },
+];
+
+export { FlowerOilData };
+
+const SpiceOilData = [
+  {
+    id: 1,
+    essentialName: "AJOWAIN OIL",
+    botanicalName: "",
+  },
+  {
+    id: 2,
+    essentialName: "BLACK PEPPER OIL",
+    botanicalName: "",
+  },
+  {
+    id: 3,
+    essentialName: "CASSIA",
+    botanicalName: "",
+  },
+  {
+    id: 4,
+    essentialName: "CINNAMON BARK OIL",
+    botanicalName: "",
+  },
+  {
+    id: 5,
+    essentialName: "CINNAMON LEAF OIL",
+    botanicalName: "",
+  },
+  {
+    id: 6,
+    essentialName: "CARDAMOM OIL",
+    botanicalName: "",
+  },
+  {
+    id: 7,
+    essentialName: "CELERY SEED OIL",
+    botanicalName: "",
+  },
+  {
+    id: 8,
+    essentialName: "CLOVE OIL",
+    botanicalName: "",
+  },
+  {
+    id: 9,
+    essentialName: "CLOVE BUD OIL",
+    botanicalName: "",
+  },
+  {
+    id: 10,
+    essentialName: "CUBEB OIL",
+    botanicalName: "",
+  },
+  {
+    id: 11,
+    essentialName: "CUMIN SEED OIL",
+    botanicalName: "",
+  },
+  {
+    id: 12,
+    essentialName: "DILL SEED OIL",
+    botanicalName: "",
+  },
+  {
+    id: 13,
+    essentialName: "FENNEL SEED OIL (SWEET)",
+    botanicalName: "",
+  },
+  {
+    id: 14,
+    essentialName: "MACE OIL",
+    botanicalName: "",
+  },
+  {
+    id: 15,
+    essentialName: "NUTMEG OIL",
+    botanicalName: "",
+  },
+  {
+    id: 16,
+    essentialName: "THYME OIL",
+    botanicalName: "",
+  },
+  {
+    id: 17,
+    essentialName: "TOMAR SEED OIL",
+    botanicalName: "",
+  },
+  {
+    id: 18,
+    essentialName: "PARSLEY SEED OIL",
+    botanicalName: "",
+  },
+  {
+    id: 19,
+    essentialName: "CARAWAY OIL",
+    botanicalName: "",
+  },
+  {
+    id: 20,
+    essentialName: "DAVANA OIL",
+    botanicalName: "",
+  },
+];
+
+export { SpiceOilData };
