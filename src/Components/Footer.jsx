@@ -9,12 +9,10 @@ const Footer = () => {
             <div class="py-[60px] px-0">
               <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
                 <div class="lg:col-span-4 md:col-span-12">
-                  <a href="#" class="text-[22px] focus:outline-none">
-                    <img
-                      class="h-12"
-                      src="https://i.ibb.co/Cvh4S8f/logo.png"
-                      alt=""
-                    />
+                  <a href="/" className="-m-1.5 p-1.5">
+                    <h1 className="-m-1.5 p-1.5 text-bold text-xl md:text-2xl">
+                      Crystal Aromatics
+                    </h1>
                   </a>
                   <p class="mt-6 text-gray-300">
                     "Unlock the Aromatic Secrets of Nature: Dive into Our

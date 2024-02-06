@@ -4,21 +4,17 @@ import "./header.css";
 
 const slideImages = [
   {
-    url: "https://img.freepik.com/free-vector/realistic-essential-oil-ad_52683-54678.jpg?w=996&t=st=1707050397~exp=1707050997~hmac=6daa34a04038d43b81bf02cfe20e3094ed6afce61ef390ce1f86249a83824c17",
+    url: "https://images5.alphacoders.com/111/1113724.jpg",
   },
   {
-    url: "https://i.pinimg.com/564x/22/4c/01/224c01baaa24359718278582fa1c1dfa.jpg",
-  },
-
-  {
-    url: "https://i.pinimg.com/564x/ca/42/c3/ca42c35a0129c08e4eaba9ec09848aef.jpg",
-  },
-  {
-    url: "https://i.pinimg.com/564x/d8/66/dd/d866dd4e88eeea08533b746ffc7d2805.jpg",
+    url: "https://images.pexels.com/photos/1172675/pexels-photo-1172675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
 
   {
-    url: "http://4.imimg.com/data4/JN/YP/MY-798705/essential-oils-v-x-500x500.jpg",
+    url: "https://images.pexels.com/photos/6621308/pexels-photo-6621308.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    url: "https://images.pexels.com/photos/7436119/pexels-photo-7436119.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
 ];
 
@@ -133,7 +129,7 @@ const HeroSection = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       goToNext();
-    }, 3000);
+    }, 6000);
 
     return () => {
       clearInterval(interval);
@@ -151,9 +147,9 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="w-full h-[45vh] lg:h-[80vh]">
+    <div className="w-full h-[45vh] lg:h-[70vh]">
       <div className=" w-full h-full   bg-slate-400">
-        <div className="relative bg-orange-300 w-full h-full overflow-hidden">
+        <div className="relative  w-full h-full overflow-hidden">
           <div
             className="flex w-full h-full transition-transform duration-1000 ease-in-out"
             style={{ transform: `translateX(-${currentIndex * 100}%)` }}

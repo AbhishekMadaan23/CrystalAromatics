@@ -47,9 +47,6 @@ const PaginatedTable = ({ Heading, data }) => {
             <th className="px-6 py-3 text-center text-lg  md:text-xl font-bold text-gray-700 uppercase tracking-wider">
               Essential Oils
             </th>
-            <th className="px-6 py-3 text-center text-lg md:text-xl font-bold text-gray-700 uppercase tracking-wider">
-              Botanical Name
-            </th>
           </tr>
         </thead>
         <tbody className="bg-white divide-y divide-gray-200">
@@ -63,9 +60,6 @@ const PaginatedTable = ({ Heading, data }) => {
               </td>
               <td className="px-6 py-4 font-semibold whitespace-nowrap">
                 {item.essentialName}
-              </td>
-              <td className="px-6 py-4 font-semibold whitespace-nowrap">
-                {item.botanicalName}
               </td>
             </tr>
           ))}

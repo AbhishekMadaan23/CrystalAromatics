@@ -31,43 +31,37 @@ const products = [
   {
     name: "Arormatherapy Oils",
     description: "",
-    href: "#",
+    href: "/aromatherapy-oils",
     icon: CursorArrowRaysIcon,
   },
   {
     name: "Carrier Oils",
     description: "",
-    href: "#",
+    href: "/carrier-oils",
     icon: CursorArrowRaysIcon,
   },
   {
     name: "Flower Oils",
     description: "",
-    href: "#",
+    href: "/flower-oils",
     icon: CursorArrowRaysIcon,
   },
   {
     name: "Spice Oils",
     description: "",
-    href: "#",
+    href: "/spice-oils",
     icon: CursorArrowRaysIcon,
   },
   {
-    name: "Fragrances",
+    name: "Fragrances and Flavours",
     description: "",
-    href: "#",
-    icon: CursorArrowRaysIcon,
-  },
-  {
-    name: "Flavours",
-    description: "",
-    href: "#",
+    href: "/fragrances-flavours",
     icon: CursorArrowRaysIcon,
   },
   {
     name: "Aromatic Chemicals",
     description: "",
-    href: "#",
+    href: "/aromatic-chemicals",
     icon: CursorArrowRaysIcon,
   },
 ];
@@ -102,13 +96,19 @@ export default function Navbar() {
       >
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
+            <h1 className="-m-1.5 p-1.5 text-bold text-lg">
+              Crystal Aromatics
+            </h1>
+          </a>
+
+          {/* <a href="/" className="-m-1.5 p-1.5">
             <img
               className="h-16 w-40 bg-cover bg-center absolute top-1/2 transform -translate-y-1/2"
               src="https://i.ibb.co/Cvh4S8f/logo.png"
               alt="logo"
               border="0"
             />
-          </a>
+          </a> */}
         </div>
         <div className="flex lg:hidden">
           <button
@@ -194,13 +194,10 @@ export default function Navbar() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
-              <img
-                className="h-24 w-auto absolute transform -translate-y-1/2"
-                src="https://i.ibb.co/Cvh4S8f/logo.png"
-                alt="logo"
-                border="0"
-              />
+            <a href="/" className="-m-1.5 p-1.5">
+              <h1 className="-m-1.5 p-1.5 text-bold text-lg">
+                Crystal Aromatics
+              </h1>
             </a>
             <button
               type="button"

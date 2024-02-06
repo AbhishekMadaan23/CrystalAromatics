@@ -904,3 +904,122 @@ const AbsolutesData = [
   { id: 30, essentialName: "CHYPRE ABSOLUTE", botanicalName: "CISTUS INCANUS" },
 ];
 export { AbsolutesData };
+
+const AromatherapyOilData = [
+  {
+    id: 1,
+    essentialName: "Stress Buster Massage Oil",
+    botanicalName: "",
+  },
+  {
+    id: 2,
+    essentialName: "Stress Buster Bath",
+    botanicalName: "",
+  },
+  {
+    id: 3,
+    essentialName: "Mental Re-energizer Bath",
+    botanicalName: "",
+  },
+  {
+    id: 4,
+    essentialName: "Exam Tonic",
+    botanicalName: "",
+  },
+  {
+    id: 5,
+    essentialName: "Aphrodisiac Massage Oil",
+    botanicalName: "",
+  },
+  {
+    id: 6,
+    essentialName: "Calming Bath",
+    botanicalName: "",
+  },
+  {
+    id: 7,
+    essentialName: "Alive Mind",
+    botanicalName: "",
+  },
+  {
+    id: 8,
+    essentialName: "Energy",
+    botanicalName: "",
+  },
+  {
+    id: 9,
+    essentialName: "Grief Support",
+    botanicalName: "",
+  },
+  {
+    id: 10,
+    essentialName: "Happiness",
+    botanicalName: "",
+  },
+  {
+    id: 11,
+    essentialName: "Beat the Winter Blues Bath",
+    botanicalName: "",
+  },
+  {
+    id: 12,
+    essentialName: "Hers Alone",
+    botanicalName: "",
+  },
+  {
+    id: 13,
+    essentialName: "Immune Boost",
+    botanicalName: "",
+  },
+  {
+    id: 14,
+    essentialName: "Inner Light",
+    botanicalName: "",
+  },
+  {
+    id: 15,
+    essentialName: "Joy & Harmony",
+    botanicalName: "",
+  },
+  {
+    id: 16,
+    essentialName: "Mental Clarity",
+    botanicalName: "",
+  },
+  {
+    id: 17,
+    essentialName: "Relaxing",
+    botanicalName: "",
+  },
+  {
+    id: 18,
+    essentialName: "Sensuality",
+    botanicalName: "",
+  },
+  {
+    id: 19,
+    essentialName: "Sensuous",
+    botanicalName: "",
+  },
+  {
+    id: 20,
+    essentialName: "Sleepy Time",
+    botanicalName: "",
+  },
+  {
+    id: 21,
+    essentialName: "Sports",
+    botanicalName: "",
+  },
+  {
+    id: 22,
+    essentialName: "Meditation",
+    botanicalName: "",
+  },
+  {
+    id: 23,
+    essentialName: "Invigorating",
+    botanicalName: "",
+  },
+];
+export { AromatherapyOilData };
