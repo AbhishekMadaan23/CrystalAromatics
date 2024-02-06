@@ -94,21 +94,30 @@ export default function Navbar() {
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 "
         aria-label="Global"
       >
-        <div className="flex lg:flex-1">
-          <a href="/" className="-m-1.5 p-1.5">
-            <h1 className="-m-1.5 p-1.5 text-bold text-lg">
-              Crystal Aromatics
-            </h1>
-          </a>
-
-          {/* <a href="/" className="-m-1.5 p-1.5">
-            <img
-              className="h-16 w-40 bg-cover bg-center absolute top-1/2 transform -translate-y-1/2"
-              src="https://i.ibb.co/Cvh4S8f/logo.png"
-              alt="logo"
-              border="0"
-            />
-          </a> */}
+        <div className="flex h-5 w-5 lg:flex-1">
+          <div className=" lg:hidden flex h-5 w-5 lg:flex-1">
+            <a
+              href="/"
+              className=""
+              style={{
+                display: "block",
+                width: " 125px",
+                height: "25px",
+                padding: "1px",
+                background:
+                  "linear-gradient(to bottom right,#7FC7D9, #DCF2F1, white)",
+                textAlign: "center",
+                border: "1px solid black",
+                borderRadius: "5px",
+                color: " Black",
+                fontWeight: "bold",
+                lineHeight: "25px",
+              }}
+            >
+              {" "}
+              CA
+            </a>
+          </div>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -125,9 +134,14 @@ export default function Navbar() {
           <a href="/" className="text-lg font-semibold leading-6 text-gray-900">
             Home
           </a>
+          <a
+            href="/products"
+            className="text-lg font-semibold -mr-8 leading-6 text-gray-900"
+          >
+            Products
+          </a>
           <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1 text-lg font-semibold leading-6 text-gray-900">
-              Products
+            <Popover.Button className="flex mt-0.5 items-center text-lg font-semibold leading-6 text-gray-900">
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-gray-400"
                 aria-hidden="true"

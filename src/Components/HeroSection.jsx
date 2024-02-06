@@ -177,7 +177,7 @@ const HeroSection = () => {
             ❮
           </button>
 
-          <div class="absolute h-20 lg:h-40 mt-9 top-1/2 left-5 bg-slate-600 bg-opacity-50 text-white py-10 lg:py-20">
+          <div class="absolute h-10 lg:h-20 mt-9 top-[60%] mx-5 lg:top-1/2 left-5 bg-slate-500 bg-opacity-50 text-white lg:pt-5">
             <h1 class="text-2xl h-full lg:text-5xl font-bold text-left font-sans animate-fade-in">
               CRYSTAL AROMATICS
             </h1>
