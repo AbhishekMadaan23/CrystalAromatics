@@ -16,7 +16,7 @@ const Footer = () => {
                   </a>
                   <p class="mt-6 text-gray-300">
                     "Unlock the Aromatic Secrets of Nature: Dive into Our
-                    Exquisite Collection of Essential Oils
+                    Exquisite Collection of Essential Oils."
                   </p>
                   <ul class="list-none mt-6">
                     <li class="inline">
@@ -97,18 +97,18 @@ const Footer = () => {
                     </li>
                     <li class="mt-[10px]">
                       <a
-                        href="#"
+                        href="/products"
                         class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"
                       >
-                        Pricing
+                        Products
                       </a>
                     </li>
                     <li class="mt-[10px]">
                       <a
-                        href="#"
+                        href="/about-us"
                         class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"
                       >
-                        Blog
+                        About us
                       </a>
                     </li>
                   </ul>
@@ -123,7 +123,7 @@ const Footer = () => {
                         href="/about-us"
                         class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"
                       >
-                        Email: crystalaromatic@gmail.com
+                        Email: crystalaromatics@gmail.com
                       </a>
                     </li>
                     <li class="mt-[10px]">
@@ -132,6 +132,14 @@ const Footer = () => {
                         class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"
                       >
                         Phone NO. : 9811296517
+                      </a>
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="#"
+                        class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"
+                      >
+                        Phone NO. : 9560568810
                       </a>
                     </li>
                   </ul>

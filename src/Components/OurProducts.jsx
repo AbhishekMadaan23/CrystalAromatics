@@ -2,7 +2,7 @@ const products = [
   {
     id: 1,
     name: "Essential Oil",
-    href: "#",
+    href: "/essential-oils",
     imageSrc:
       "https://i.pinimg.com/564x/81/81/f5/8181f53b138194d46bae3203ec6e494b.jpg",
     imageAlt: "Essential Oil",
@@ -12,7 +12,7 @@ const products = [
   {
     id: 1,
     name: "Absolutes",
-    href: "#",
+    href: "/absolutes",
     imageSrc:
       "https://i.pinimg.com/564x/57/ce/de/57cede663fca27b8a273d5a6d4f922f0.jpg",
     imageAlt: "Absolutes",
@@ -22,7 +22,7 @@ const products = [
   {
     id: 1,
     name: "Aromatherapy Oils",
-    href: "#",
+    href: "/aromatherapy-oils",
     imageSrc:
       "https://i.pinimg.com/564x/ac/3e/ab/ac3eabed4b067a28939dbcb52c5b76e9.jpg",
     imageAlt: "Aromatherapy Oils",
@@ -32,7 +32,7 @@ const products = [
   {
     id: 1,
     name: "Carrier Oils",
-    href: "#",
+    href: "/carrier-oils",
     imageSrc:
       "https://i.pinimg.com/564x/d2/10/f7/d210f7b0144206267125b7dd74f695eb.jpg",
     imageAlt: "Carrier Oils",
@@ -42,7 +42,7 @@ const products = [
   {
     id: 1,
     name: "Flower Oils",
-    href: "#",
+    href: "/flower-oils",
     imageSrc:
       "https://i.pinimg.com/564x/91/34/b8/9134b855d2e487c00bc003513c5c221f.jpg",
     imageAlt: "Flower Oils",
@@ -52,7 +52,7 @@ const products = [
   {
     id: 1,
     name: "Spice Oils",
-    href: "#",
+    href: "/spice-oils",
     imageSrc:
       "https://i.pinimg.com/564x/c9/33/c6/c933c647cc88170fac8eb5872025ba7e.jpg",
     imageAlt: "Spice Oils",
@@ -61,24 +61,15 @@ const products = [
   },
   {
     id: 1,
-    name: "Fragrances",
-    href: "#",
+    name: "Fragrances and Flavours",
+    href: "/fragrances-flavours",
     imageSrc:
       "https://i.pinimg.com/564x/81/81/13/8181139a616b8a2e162b7910365c5e45.jpg",
     imageAlt: "Fragrances",
     price: "",
     color: "",
   },
-  {
-    id: 1,
-    name: "Flavours",
-    href: "#",
-    imageSrc:
-      "https://cdn.shopify.com/s/files/1/0330/6249/articles/Flavors_1000x1000.jpg?v=1589999553",
-    imageAlt: "Flavours",
-    price: "",
-    color: "",
-  },
+
   {
     id: 1,
     name: "Aromatics Chemicals",
@@ -93,9 +84,9 @@ const products = [
 
 export default function OurProducts() {
   return (
-    <div className="bg-red-50 my-5">
+    <div className="bg-red-50 my-5 pt-6 pb-5">
       <div className="mx-auto my-8 max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-        <h1 className="text-3xl font-bold text-gray-900">Our Products</h1>
+        <h1 className="text-3xl font-bold pb-2 text-gray-900">Our Products</h1>
 
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (

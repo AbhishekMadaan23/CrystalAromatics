@@ -2,7 +2,7 @@ import React from "react";
 
 const CompanyProfile = () => {
   return (
-    <div className="w-full bg-red-50">
+    <div className="w-full bg-red-50 py-6">
       <div className="w-full ">
         <h1 className="text-center text-2xl lg:text-3xl font-bold p-4 pb-2">
           Company Profile
@@ -24,7 +24,7 @@ const CompanyProfile = () => {
           our clients.
         </p>
       </div>
-      <div class="flex justify-center mt-3 mb-10">
+      {/* <div class="flex justify-center mt-3 mb-10">
         <img
           src="https://certbodies.co.uk/wp-content/uploads/2021/03/ISO-certification-scaled.jpeg"
           alt="Quality Certified Logo 1"
@@ -35,7 +35,7 @@ const CompanyProfile = () => {
           alt="Quality Certified Logo 2"
           class="w-16 h-16 mx-8 my-5"
         />
-      </div>
+      </div> */}
     </div>
   );
 };

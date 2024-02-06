@@ -14,7 +14,7 @@ export default function Promo() {
               well-being.
             </p>
             <a
-              href="#"
+              href="/essential-oils"
               className="inline-block mt-4 rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
             >
               Explore
@@ -22,7 +22,6 @@ export default function Promo() {
           </div>
           <div>
             <div className="mt-10">
-              {/* Decorative image grid */}
               <div
                 aria-hidden="true"
                 className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
