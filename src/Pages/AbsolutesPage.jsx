@@ -1,11 +1,11 @@
 import React from "react";
-import PaginatedTable from "../Components/PaginatedTable";
+import PaginatedTableV2 from "../Components/PaginatedTableV2";
 import { AbsolutesData } from "../Data/Data";
 
 const AbsolutesPage = () => {
   return (
     <div>
-      <PaginatedTable Heading="Absolutes" data={AbsolutesData} />
+      <PaginatedTableV2 Heading="Absolutes" data={AbsolutesData} />
     </div>
   );
 };

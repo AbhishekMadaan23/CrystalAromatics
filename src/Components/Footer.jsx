@@ -8,7 +8,7 @@ const Footer = () => {
           <div class="col-span-12">
             <div class="py-[60px] px-0">
               <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
-                <div class="lg:col-span-4 md:col-span-12">
+                <div class="lg:col-span-5 md:col-span-12">
                   <a href="/" className="-m-1.5 p-1.5">
                     <h1 className="-m-1.5 p-1.5 text-bold text-xl md:text-2xl">
                       Crystal Aromatics
@@ -78,7 +78,7 @@ const Footer = () => {
                   </ul>
                 </div>
 
-                <div class="lg:col-span-2 md:col-span-4">
+                <div class="lg:col-span-2 md:col-span-4 ">
                   <h5 class="tracking-[1px] text-gray-100 font-semibold">
                     Company
                   </h5>
@@ -87,17 +87,13 @@ const Footer = () => {
                       <a
                         href="/about-us"
                         class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"
-                      >
-                        About us
-                      </a>
+                      ></a>
                     </li>
                     <li class="mt-[10px]">
                       <a
                         href="#"
                         class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"
-                      >
-                        Services
-                      </a>
+                      ></a>
                     </li>
                     <li class="mt-[10px]">
                       <a
@@ -113,6 +109,29 @@ const Footer = () => {
                         class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"
                       >
                         Blog
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="lg:col-span-4 md:col-span-4">
+                  <h5 class="tracking-[1px] text-gray-100 font-semibold">
+                    18, 1st Floor, C.S.C Vaishali, Pitampura, Delhi-110034
+                  </h5>
+                  <ul class="list-none  mt-6">
+                    <li>
+                      <a
+                        href="/about-us"
+                        class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"
+                      >
+                        Email: crystalaromatic@gmail.com
+                      </a>
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="#"
+                        class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"
+                      >
+                        Phone NO. : 9811296517
                       </a>
                     </li>
                   </ul>
