@@ -1921,3 +1921,636 @@ const SpiceOilData = [
 ];
 
 export { SpiceOilData };
+
+const AromaticChemicalsData = [
+  {
+    id: 1,
+    essentialName: "ALPHA HUMELENE",
+    botanicalName: null,
+  },
+  {
+    id: 2,
+    essentialName: "ALPHA PHELLANDRENE",
+    botanicalName: null,
+  },
+  {
+    id: 3,
+    essentialName: "ALPHA PINENE",
+    botanicalName: null,
+  },
+  {
+    id: 4,
+    essentialName: "ANETHOLE",
+    botanicalName: null,
+  },
+  {
+    id: 5,
+    essentialName: "BEETA CARYOPHYLLENE",
+    botanicalName: null,
+  },
+  {
+    id: 6,
+    essentialName: "BEETA PINENE",
+    botanicalName: null,
+  },
+  {
+    id: 7,
+    essentialName: "CAMPHENE",
+    botanicalName: null,
+  },
+  {
+    id: 8,
+    essentialName: "CAMPHOR POWDER",
+    botanicalName: null,
+  },
+  {
+    id: 9,
+    essentialName: "CUMINIC ALDEHYDE",
+    botanicalName: null,
+  },
+  {
+    id: 10,
+    essentialName: "CITRAL",
+    botanicalName: null,
+  },
+  {
+    id: 11,
+    essentialName: "D LIMONENE",
+    botanicalName: null,
+  },
+  {
+    id: 12,
+    essentialName: "DELTA 3 CARENE",
+    botanicalName: null,
+  },
+  {
+    id: 13,
+    essentialName: "DIPANTENE",
+    botanicalName: null,
+  },
+  {
+    id: 14,
+    essentialName: "EUCALYPTOL",
+    botanicalName: null,
+  },
+  {
+    id: 15,
+    essentialName: "EUGENOL",
+    botanicalName: null,
+  },
+  {
+    id: 16,
+    essentialName: "GAMMA TERPENENE",
+    botanicalName: null,
+  },
+  {
+    id: 17,
+    essentialName: "ISO BORNYL ACETATE",
+    botanicalName: null,
+  },
+  {
+    id: 18,
+    essentialName: "ISO MENTHONE",
+    botanicalName: null,
+  },
+  {
+    id: 19,
+    essentialName: "ISO POULEGOL",
+    botanicalName: null,
+  },
+  {
+    id: 20,
+    essentialName: "LINALOOL",
+    botanicalName: null,
+  },
+  {
+    id: 21,
+    essentialName: "LINALOOL EX BASIL",
+    botanicalName: null,
+  },
+  {
+    id: 22,
+    essentialName: "LINALYL ACETATE",
+    botanicalName: null,
+  },
+  {
+    id: 23,
+    essentialName: "METHYL CHAVICOL",
+    botanicalName: null,
+  },
+  {
+    id: 24,
+    essentialName: "METHYL SALICYLATE",
+    botanicalName: null,
+  },
+  {
+    id: 25,
+    essentialName: "MYRCENE",
+    botanicalName: null,
+  },
+  {
+    id: 26,
+    essentialName: "OCIMENE",
+    botanicalName: null,
+  },
+  {
+    id: 27,
+    essentialName: "PARA CYMENE",
+    botanicalName: null,
+  },
+  {
+    id: 28,
+    essentialName: "SABINENE",
+    botanicalName: null,
+  },
+  {
+    id: 29,
+    essentialName: "TERPINENE 4 OL",
+    botanicalName: null,
+  },
+  {
+    id: 30,
+    essentialName: "TERPINEOL",
+    botanicalName: null,
+  },
+  {
+    id: 31,
+    essentialName: "TERPINOLENE",
+    botanicalName: null,
+  },
+];
+export { AromaticChemicalsData };
+
+const FragrancesAndFlavoursHairOilData = [
+  {
+    id: 1,
+    essentialName: "Almond 202",
+    botanicalName: null,
+  },
+  {
+    id: 2,
+    essentialName: "Almond Drop",
+    botanicalName: null,
+  },
+  {
+    id: 3,
+    essentialName: "Almond Fragrance",
+    botanicalName: null,
+  },
+  {
+    id: 4,
+    essentialName: "Amla",
+    botanicalName: null,
+  },
+  {
+    id: 5,
+    essentialName: "Amla 505",
+    botanicalName: null,
+  },
+  {
+    id: 6,
+    essentialName: "Amla 606",
+    botanicalName: null,
+  },
+  {
+    id: 7,
+    essentialName: "Amla Strong",
+    botanicalName: null,
+  },
+  {
+    id: 8,
+    essentialName: "Bajaj Almond Type",
+    botanicalName: null,
+  },
+  {
+    id: 9,
+    essentialName: "Bhrami Amla",
+    botanicalName: null,
+  },
+  {
+    id: 10,
+    essentialName: "Bhringraj",
+    botanicalName: null,
+  },
+  {
+    id: 11,
+    essentialName: "Chameli No. 2",
+    botanicalName: null,
+  },
+  {
+    id: 12,
+    essentialName: "Chameli No. 4",
+    botanicalName: null,
+  },
+  {
+    id: 13,
+    essentialName: "Jasmine B",
+    botanicalName: null,
+  },
+  {
+    id: 14,
+    essentialName: "Keshkala",
+    botanicalName: null,
+  },
+  {
+    id: 15,
+    essentialName: "Keshraj",
+    botanicalName: null,
+  },
+  {
+    id: 16,
+    essentialName: "Lily S",
+    botanicalName: null,
+  },
+  {
+    id: 17,
+    essentialName: "Navratan 2",
+    botanicalName: null,
+  },
+  {
+    id: 18,
+    essentialName: "Navratan Mod",
+    botanicalName: null,
+  },
+  {
+    id: 19,
+    essentialName: "Navratan Supercool",
+    botanicalName: null,
+  },
+  {
+    id: 20,
+    essentialName: "Icy cool",
+    botanicalName: null,
+  },
+  {
+    id: 21,
+    essentialName: "Icymate",
+    botanicalName: null,
+  },
+  {
+    id: 22,
+    essentialName: "Icydrake",
+    botanicalName: null,
+  },
+  {
+    id: 23,
+    essentialName: "HimSagar",
+    botanicalName: null,
+  },
+  {
+    id: 24,
+    essentialName: "Meditation",
+    botanicalName: null,
+  },
+  {
+    id: 25,
+    essentialName: "coconut",
+    botanicalName: null,
+  },
+  {
+    id: 26,
+    essentialName: "Mogra",
+    botanicalName: null,
+  },
+  {
+    id: 27,
+    essentialName: "Sea Breeze",
+    botanicalName: null,
+  },
+  {
+    id: 28,
+    essentialName: "Saffron 202",
+    botanicalName: null,
+  },
+  {
+    id: 29,
+    essentialName: "Shikakai",
+    botanicalName: null,
+  },
+  {
+    id: 30,
+    essentialName: "Heena",
+    botanicalName: null,
+  },
+  {
+    id: 31,
+    essentialName: "Neem",
+    botanicalName: null,
+  },
+];
+export { FragrancesAndFlavoursHairOilData };
+
+const FragrancesAndFlavoursCreamLotionData = [
+  {
+    id: 1,
+    essentialName: "Aqua flor",
+    botanicalName: null,
+  },
+  {
+    id: 2,
+    essentialName: "Bogart",
+    botanicalName: null,
+  },
+  {
+    id: 3,
+    essentialName: "Bon Bon",
+    botanicalName: null,
+  },
+  {
+    id: 4,
+    essentialName: "C.K",
+    botanicalName: null,
+  },
+  {
+    id: 5,
+    essentialName: "Charmis M",
+    botanicalName: null,
+  },
+  {
+    id: 6,
+    essentialName: "Charms",
+    botanicalName: null,
+  },
+  {
+    id: 7,
+    essentialName: "Crazy (M)",
+    botanicalName: null,
+  },
+  {
+    id: 8,
+    essentialName: "Eau de Belle",
+    botanicalName: null,
+  },
+  {
+    id: 9,
+    essentialName: "Fahrenheit",
+    botanicalName: null,
+  },
+  {
+    id: 10,
+    essentialName: "Fair & Natural",
+    botanicalName: null,
+  },
+  {
+    id: 11,
+    essentialName: "Fair-ever Saffron",
+    botanicalName: null,
+  },
+  {
+    id: 12,
+    essentialName: "Floral Cream",
+    botanicalName: null,
+  },
+  {
+    id: 13,
+    essentialName: "Forever",
+    botanicalName: null,
+  },
+  {
+    id: 14,
+    essentialName: "Freeze",
+    botanicalName: null,
+  },
+  {
+    id: 15,
+    essentialName: "Givago 19",
+    botanicalName: null,
+  },
+  {
+    id: 16,
+    essentialName: "Herbo Spec",
+    botanicalName: null,
+  },
+  {
+    id: 17,
+    essentialName: "Aloe V",
+    botanicalName: null,
+  },
+  {
+    id: 18,
+    essentialName: "Aloe Vera Nal/III",
+    botanicalName: null,
+  },
+  {
+    id: 19,
+    essentialName: "Amber AB",
+    botanicalName: null,
+  },
+  {
+    id: 20,
+    essentialName: "Amla 505",
+    botanicalName: null,
+  },
+  {
+    id: 21,
+    essentialName: "Amla 606",
+    botanicalName: null,
+  },
+  {
+    id: 22,
+    essentialName: "Applina",
+    botanicalName: null,
+  },
+  {
+    id: 23,
+    essentialName: "Aquafina",
+    botanicalName: null,
+  },
+  {
+    id: 24,
+    essentialName: "Arctica",
+    botanicalName: null,
+  },
+  {
+    id: 25,
+    essentialName: "Benclaire",
+    botanicalName: null,
+  },
+  {
+    id: 26,
+    essentialName: "Calgary",
+    botanicalName: null,
+  },
+  {
+    id: 27,
+    essentialName: "Calidem Mod (Medicated)",
+    botanicalName: null,
+  },
+  {
+    id: 28,
+    essentialName: "Calidem Plus (Medicated)",
+    botanicalName: null,
+  },
+  {
+    id: 29,
+    essentialName: "Chameli No. 4",
+    botanicalName: null,
+  },
+  {
+    id: 30,
+    essentialName: "Chameli No.2",
+    botanicalName: null,
+  },
+  {
+    id: 31,
+    essentialName: "Iceberg",
+    botanicalName: null,
+  },
+  {
+    id: 32,
+    essentialName: "Lavender Sweet",
+    botanicalName: null,
+  },
+  {
+    id: 33,
+    essentialName: "Limoni Cool",
+    botanicalName: null,
+  },
+  {
+    id: 34,
+    essentialName: "Magic",
+    botanicalName: null,
+  },
+  {
+    id: 35,
+    essentialName: "Musk ©",
+    botanicalName: null,
+  },
+  {
+    id: 36,
+    essentialName: "Musk Miracle",
+    botanicalName: null,
+  },
+  {
+    id: 37,
+    essentialName: "NOMARKS",
+    botanicalName: null,
+  },
+  {
+    id: 38,
+    essentialName: "Ocean",
+    botanicalName: null,
+  },
+  {
+    id: 39,
+    essentialName: "Sweet Rose (19 C)",
+    botanicalName: null,
+  },
+  {
+    id: 40,
+    essentialName: "Sweet Rose S4 etc.",
+    botanicalName: null,
+  },
+  {
+    id: 41,
+    essentialName: "Tuscany",
+    botanicalName: null,
+  },
+  {
+    id: 42,
+    essentialName: "Champagne 50",
+    botanicalName: null,
+  },
+  {
+    id: 43,
+    essentialName: "Chanel",
+    botanicalName: null,
+  },
+  {
+    id: 44,
+    essentialName: "Charlton",
+    botanicalName: null,
+  },
+  {
+    id: 45,
+    essentialName: "Charmis CL",
+    botanicalName: null,
+  },
+  {
+    id: 46,
+    essentialName: "Charmis M",
+    botanicalName: null,
+  },
+  {
+    id: 47,
+    essentialName: "Charmwood",
+    botanicalName: null,
+  },
+  {
+    id: 48,
+    essentialName: "Chicano",
+    botanicalName: null,
+  },
+  {
+    id: 49,
+    essentialName: "Chypre",
+    botanicalName: null,
+  },
+  {
+    id: 50,
+    essentialName: "Citrina",
+    botanicalName: null,
+  },
+  {
+    id: 51,
+    essentialName: "Citronella",
+    botanicalName: null,
+  },
+  {
+    id: 52,
+    essentialName: "CK 10",
+    botanicalName: null,
+  },
+  {
+    id: 53,
+    essentialName: "CK I Premium",
+    botanicalName: null,
+  },
+  {
+    id: 54,
+    essentialName: "Coffee 06",
+    botanicalName: null,
+  },
+  {
+    id: 55,
+    essentialName: "Comp. 666",
+    botanicalName: null,
+  },
+  {
+    id: 56,
+    essentialName: "Comp. 777",
+    botanicalName: null,
+  },
+  {
+    id: 57,
+    essentialName: "Cream Nal II",
+    botanicalName: null,
+  },
+  {
+    id: 58,
+    essentialName: "Dazzle",
+    botanicalName: null,
+  },
+  {
+    id: 59,
+    essentialName: "Debonaire Mod",
+    botanicalName: null,
+  },
+  {
+    id: 60,
+    essentialName: "Dettol Max (Medicated)",
+    botanicalName: null,
+  },
+  {
+    id: 61,
+    essentialName: "Dragon Blood",
+    botanicalName: null,
+  },
+  {
+    id: 62,
+    essentialName: "Drakkar",
+    botanicalName: null,
+  },
+];
+
+export { FragrancesAndFlavoursCreamLotionData };
