@@ -100,7 +100,7 @@ export default function OurProducts() {
               </div>
               <div className="mt-4 flex justify-between">
                 <div className="w-full">
-                  <h3 className="text-lg md:text-xl  underline text-center font-bold text-gray-700">
+                  <h3 className="text-lg md:text-xl shadow-md rounded-md p-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg text-center font-bold text-gray-800">
                     <a href={product.href}>
                       <span
                         aria-hidden="true"

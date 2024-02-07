@@ -69,8 +69,9 @@ export default function ProductsPage() {
   return (
     <div className="bg-gray-100">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-          <h2 className="text-2xl font-bold text-gray-900">Categories</h2>
+        <div className="mx-auto max-w-2xl py-16 sm:py-20 lg:max-w-none lg:py-16">
+          <h2 className="text-3xl font-bold text-gray-900">Categories</h2>
+          <hr className="h-0.5 bg-gray-400 w-1/3 sm:w-1/4  mx-auto mt-2" />
 
           <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
             {callouts.map((callout) => (
@@ -82,7 +83,7 @@ export default function ProductsPage() {
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
-                <h3 className="mt-6 mb-8 text-lg lg:text-xl underline bold text-gray-800">
+                <h3 className="mt-6 mb-8 text-lg lg:text-xl shadow-md rounded-md p-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg hover:underline bold text-black">
                   <a href={callout.href}>
                     <span className="absolute " />
                     {callout.name}

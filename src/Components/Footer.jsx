@@ -10,11 +10,11 @@ const Footer = () => {
               <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
                 <div class="lg:col-span-5 md:col-span-12">
                   <a href="/" className="-m-1.5 p-1.5">
-                    <h1 className="-m-1.5 p-1.5 text-bold text-xl md:text-2xl">
+                    <h1 className="-m-1.5 p-1.5 text-bold text-xl md:text-3xl">
                       Crystal Aromatics
                     </h1>
                   </a>
-                  <p class="mt-6 text-gray-300">
+                  <p class="mt-6 text-white">
                     "Unlock the Aromatic Secrets of Nature: Dive into Our
                     Exquisite Collection of Essential Oils."
                   </p>
@@ -79,7 +79,7 @@ const Footer = () => {
                 </div>
 
                 <div class="lg:col-span-2 md:col-span-4 ">
-                  <h5 class="tracking-[1px] text-gray-100 font-semibold">
+                  <h5 class="tracking-[1px] text-white font-semibold">
                     Company
                   </h5>
                   <ul class="list-none  mt-6">
@@ -98,7 +98,7 @@ const Footer = () => {
                     <li class="mt-[10px]">
                       <a
                         href="/products"
-                        class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"
+                        class="text-white hover:text-gray-400 transition-all duration-500 ease-in-out"
                       >
                         Products
                       </a>
@@ -106,7 +106,7 @@ const Footer = () => {
                     <li class="mt-[10px]">
                       <a
                         href="/about-us"
-                        class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"
+                        class="text-white hover:text-gray-400 transition-all duration-500 ease-in-out"
                       >
                         About us
                       </a>
@@ -114,14 +114,14 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div class="lg:col-span-4 md:col-span-4">
-                  <h5 class="tracking-[1px] text-gray-100 font-semibold">
+                  <h5 class="tracking-[1px] text-white font-semibold">
                     18, 1st Floor, C.S.C Vaishali, Pitampura, Delhi-110034
                   </h5>
                   <ul class="list-none  mt-6">
                     <li>
                       <a
                         href="/about-us"
-                        class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"
+                        class="text-white hover:text-gray-400 transition-all duration-500 ease-in-out"
                       >
                         Email: crystalaromatics@gmail.com
                       </a>
@@ -129,7 +129,7 @@ const Footer = () => {
                     <li class="mt-[10px]">
                       <a
                         href="#"
-                        class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"
+                        class="text-white hover:text-gray-400 transition-all duration-500 ease-in-out"
                       >
                         Phone NO. : 9811296517
                       </a>
@@ -137,7 +137,7 @@ const Footer = () => {
                     <li class="mt-[10px]">
                       <a
                         href="#"
-                        class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"
+                        class="text-white hover:text-gray-400 transition-all duration-500 ease-in-out"
                       >
                         Phone NO. : 9560568810
                       </a>
