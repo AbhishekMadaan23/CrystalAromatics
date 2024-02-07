@@ -57,7 +57,7 @@ const PaginatedTableV3 = ({ Heading, data }) => {
                   item.botanicalName === ""
                     ? "px-6 py-4 font-semibold"
                     : "px-6 py-4 font-bold text-lg md:text-xl underline bg-green-300"
-                } whitespace-nowrap`}
+                } `}
               >
                 {item.essentialName}
               </td>

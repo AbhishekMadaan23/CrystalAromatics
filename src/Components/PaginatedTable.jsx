@@ -58,15 +58,11 @@ const PaginatedTable = ({ Heading, data }) => {
               key={item.id}
               className={`${index % 2 === 0 ? "bg-green-50" : "bg-green-100"}`}
             >
-              <td className="px-6 py-4 font-semibold whitespace-nowrap">
+              <td className="px-6 py-4 font-semibold ">
                 {startIndex + index + 1}
               </td>
-              <td className="px-6 py-4 font-semibold whitespace-nowrap">
-                {item.essentialName}
-              </td>
-              <td className="px-6 py-4 font-semibold whitespace-nowrap">
-                {item.botanicalName}
-              </td>
+              <td className="px-6 py-4 font-semibold ">{item.essentialName}</td>
+              <td className="px-6 py-4 font-semibold ">{item.botanicalName}</td>
             </tr>
           ))}
         </tbody>
