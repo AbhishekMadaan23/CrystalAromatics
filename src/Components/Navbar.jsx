@@ -104,10 +104,10 @@ export default function Navbar() {
                 width: " 125px",
                 height: "25px",
                 padding: "1px",
-                background:
-                  "linear-gradient(to bottom right,#7FC7D9, #DCF2F1, white)",
+                // background:
+                //   "linear-gradient(to bottom right,#7FC7D9, #DCF2F1, white)",
                 textAlign: "center",
-                border: "1px solid black",
+                // border: "1px solid black",
                 borderRadius: "5px",
                 color: " Black",
                 fontWeight: "bold",

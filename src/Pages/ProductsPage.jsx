@@ -53,7 +53,7 @@ const callouts = [
     imageSrc:
       "https://i.pinimg.com/564x/81/81/13/8181139a616b8a2e162b7910365c5e45.jpg",
     imageAlt: "Fragrances and Flavours",
-    href: "/fragrances-and-flavours",
+    href: "/fragrances-flavours",
   },
 
   {

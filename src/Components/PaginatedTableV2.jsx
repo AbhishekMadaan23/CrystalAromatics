@@ -16,7 +16,7 @@ const PaginatedTable = ({ Heading, data }) => {
         <h2 class="text-2xl font-bold leading-8 text-gray-900 sm:truncate sm:text-4xl sm:tracking-tight px-3">
           {Heading}
         </h2>
-        <hr className="w-1/2 mt-2 mb-5 mx-auto h-0.5 border-0 bg-gray-400" />
+        <hr className="w-3/4 mt-2 mb-5 mx-auto h-0.5 border-0 bg-gray-400" />
         <div className=" flex justify-end mt-5 items-center  mb-5">
           <button
             className="py-2 px-4 mx-3 bg-indigo-700 text-white rounded hover:bg-white hover:text-indigo-700 border-2 border-indigo-700"

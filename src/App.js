@@ -15,6 +15,13 @@ import FragrancesAndFlavoursPage from "./Pages/FragrancesAndFlavoursPage";
 import AromaticChemicalsPage from "./Pages/AromaticChemicalsPage";
 import GetInTouchPage from "./Pages/GetInTouchPage";
 import ProductsPage from "./Pages/ProductsPage";
+import FragrancesForHairOilPage from "./Pages/FragrancesPages/FragrancesForHairOilPage";
+import FragrancesForCreamAndLotionPage from "./Pages/FragrancesPages/FragrancesForCreamAndLotionPage";
+import FragrancesForFacePackPage from "./Pages/FragrancesPages/FragrancesForFacePackPage";
+import FragrancesForSoapsPage from "./Pages/FragrancesPages/FragrancesForSoapsPage";
+import FragrancesForTalcumPage from "./Pages/FragrancesPages/FragrancesForTalcumPage";
+import FragrancesForCandlesAndIncenseSticks from "./Pages/FragrancesPages/FragrancesForCandlesAndIncenseSticks";
+import FragrancesForPersonalFragrancesAerosolsAirFreshnersPage from "./Pages/FragrancesPages/FragrancesForPersonalFragrancesAerosolsAirFreshnersPage";
 
 function App() {
   return (
@@ -36,6 +43,36 @@ function App() {
           <Route
             path="/fragrances-flavours"
             element={<FragrancesAndFlavoursPage />}
+          />
+          <Route
+            path="/fragrances-flavours/hair-oil"
+            element={<FragrancesForHairOilPage />}
+          />
+          <Route
+            path="/fragrances-flavours/cream-lotion"
+            element={<FragrancesForCreamAndLotionPage />}
+          />
+          <Route
+            path="/fragrances-flavours/face-pack"
+            element={<FragrancesForFacePackPage />}
+          />
+          <Route
+            path="/fragrances-flavours/soaps"
+            element={<FragrancesForSoapsPage />}
+          />
+          <Route
+            path="/fragrances-flavours/talcum"
+            element={<FragrancesForTalcumPage />}
+          />
+          <Route
+            path="/fragrances-flavours/candles-incense-sticks"
+            element={<FragrancesForCandlesAndIncenseSticks />}
+          />
+          <Route
+            path="/fragrances-flavours/personal-fragrances-aerosols-air-freshners"
+            element={
+              <FragrancesForPersonalFragrancesAerosolsAirFreshnersPage />
+            }
           />
           <Route
             path="/aromatic-chemicals"
