@@ -114,8 +114,7 @@ export default function Navbar() {
                 lineHeight: "25px",
               }}
             >
-              {" "}
-              CA
+              Home
             </a>
           </div>
         </div>
@@ -231,16 +230,23 @@ export default function Navbar() {
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                        Products
-                        <ChevronDownIcon
-                          className={classNames(
-                            open ? "rotate-180" : "",
-                            "h-5 w-5 flex-none"
-                          )}
-                          aria-hidden="true"
-                        />
-                      </Disclosure.Button>
+                      <div className="flex hover:bg-gray-50 ">
+                        <a
+                          className=" rounded-lg px-3 py-2 text-base font-semibold"
+                          href="/products"
+                        >
+                          Products
+                        </a>
+                        <Disclosure.Button className="flex w-full items-center justify-between rounded-lg  pl-1 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                          <ChevronDownIcon
+                            className={classNames(
+                              open ? "rotate-180" : "",
+                              "h-5 w-5 flex-none"
+                            )}
+                            aria-hidden="true"
+                          />
+                        </Disclosure.Button>
+                      </div>
                       <Disclosure.Panel className="mt-2 space-y-2">
                         {[...products].map((item) => (
                           <Disclosure.Button

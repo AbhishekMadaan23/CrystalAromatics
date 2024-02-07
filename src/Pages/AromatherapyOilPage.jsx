@@ -1,12 +1,12 @@
 import React from "react";
-import PaginatedTableV2 from "../Components/PaginatedTableV2";
+import PaginatedTableV3 from "../Components/PaginatedTableV3";
 import { AromatherapyOilData } from "../Data/Data";
 
 const AromatherapyOilPage = () => {
-  const Heading = "Aromatherapy Oils";
+  const Heading = "On The Basis of Category";
   return (
     <div>
-      <PaginatedTableV2 Heading={Heading} data={AromatherapyOilData} />
+      <PaginatedTableV3 Heading={Heading} data={AromatherapyOilData} />
     </div>
   );
 };

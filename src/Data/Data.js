@@ -909,7 +909,7 @@ const AromatherapyOilData = [
   {
     id: 1,
     essentialName: "On the Basis of Emotional Well Being",
-    botanicalName: "",
+    botanicalName: "On the Basis of Emotional Well Being",
   },
   {
     id: 2,
@@ -1029,6 +1029,7 @@ const AromatherapyOilData = [
   {
     id: 25,
     essentialName: "On the Basis Of Physical Well Being",
+    botanicalName: "On the Basis Of Physical Well Being",
   },
   {
     id: 26,
@@ -1085,7 +1086,6 @@ const AromatherapyOilData = [
     essentialName: "Over Indulgence Fixer Bath",
     botanicalName: "",
   },
-  //
   {
     id: 37,
     essentialName: "For Skin Care & Beauty",
@@ -1095,18 +1095,22 @@ const AromatherapyOilData = [
   {
     id: 38,
     essentialName: "Beat the Wrinkle Mature Skin Cream",
+    botanicalName: "",
   },
   {
     id: 39,
     essentialName: "Nourishing Dry Skin Cream",
+    botanicalName: "",
   },
   {
     id: 40,
     essentialName: "Brighten up Skin Cream for Dull & Congested Skin",
+    botanicalName: "",
   },
   {
     id: 41,
     essentialName: "Eczema Relief Massage Oil",
+    botanicalName: "",
   },
   {
     id: 42,
@@ -1326,7 +1330,7 @@ const AromatherapyOilData = [
   {
     id: 85,
     essentialName: "On The Basis of Zodiac Signs",
-    botanicalName: "",
+    botanicalName: "On The Basis of Zodiac Signs",
   },
   {
     id: 86,
@@ -1391,7 +1395,7 @@ const AromatherapyOilData = [
   {
     id: 98,
     essentialName: "On The Basis of Related Therapy",
-    botanicalName: "",
+    botanicalName: "On The Basis of Related Therapy",
   },
   {
     id: 99,
