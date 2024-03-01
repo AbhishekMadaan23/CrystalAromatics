@@ -61,7 +61,7 @@ const PaginatedTable = ({ Heading, data }) => {
             <th className="px-6 py-3 text-center text-lg md:text-xl font-bold text-gray-700 uppercase tracking-wider">
               Botanical Name
             </th>
-            <th className="px-6 py-3 text-center text-lg md:text-xl font-bold text-gray-700 uppercase tracking-wider">
+            <th className=" hidden lg:block px-6 py-3 text-center text-lg md:text-xl font-bold text-gray-700 uppercase tracking-wider">
               Uses
             </th>
           </tr>
@@ -78,7 +78,7 @@ const PaginatedTable = ({ Heading, data }) => {
               <td className="px-6 py-4 font-semibold ">{item.essentialName}</td>
               <td className="px-6 py-4 font-semibold ">{item.botanicalName}</td>
               <td
-                className="px-6 py-4 font-semibold cursor-pointer"
+                className=" hidden lg:block px-6 py-4 font-semibold cursor-pointer"
                 onMouseEnter={() => handleMouseEnter(index)}
                 onMouseLeave={handleMouseLeave}
               >
