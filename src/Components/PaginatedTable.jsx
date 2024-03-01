@@ -4,6 +4,7 @@ const ITEMS_PER_PAGE = 40;
 
 const PaginatedTable = ({ Heading, data }) => {
   const [currentPage, setCurrentPage] = useState(1);
+  console.log("test");
 
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const selectedItems = data.slice(startIndex, startIndex + ITEMS_PER_PAGE);
