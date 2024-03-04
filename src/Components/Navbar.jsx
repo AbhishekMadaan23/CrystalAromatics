@@ -73,7 +73,7 @@ function classNames(...classes) {
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isTop, setIsTop] = useState(true);
-
+  const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
@@ -139,7 +139,12 @@ export default function Navbar() {
           >
             Products
           </a>
-          <Popover className="relative">
+
+          <Popover
+            className="relative"
+            onMouseEnter={() => setIsOpen(true)}
+            onMouseLeave={() => setIsOpen(false)}
+          >
             <Popover.Button className="flex mt-0.5 items-center text-lg font-semibold leading-6 text-gray-900">
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-gray-400"
@@ -148,6 +153,7 @@ export default function Navbar() {
             </Popover.Button>
 
             <Transition
+              show={isOpen}
               as={Fragment}
               enter="transition ease-out duration-200"
               enterFrom="opacity-0 translate-y-1"
@@ -156,7 +162,11 @@ export default function Navbar() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+              <Popover.Panel
+                className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5"
+                onMouseEnter={() => setIsOpen(true)}
+                onMouseLeave={() => setIsOpen(false)}
+              >
                 <div className="p-4">
                   {products.map((item) => (
                     <div
@@ -185,7 +195,6 @@ export default function Navbar() {
               </Popover.Panel>
             </Transition>
           </Popover>
-
           <a
             href="/about-us"
             className="text-lg font-semibold leading-6 text-gray-900"

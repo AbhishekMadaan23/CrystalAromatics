@@ -22,13 +22,15 @@ import FragrancesForSoapsPage from "./Pages/FragrancesPages/FragrancesForSoapsPa
 import FragrancesForTalcumPage from "./Pages/FragrancesPages/FragrancesForTalcumPage";
 import FragrancesForCandlesAndIncenseSticks from "./Pages/FragrancesPages/FragrancesForCandlesAndIncenseSticks";
 import FragrancesForPersonalFragrancesAerosolsAirFreshnersPage from "./Pages/FragrancesPages/FragrancesForPersonalFragrancesAerosolsAirFreshnersPage";
+import ProductPage from "./Pages/ProductPage";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Navbar />
-      <Router>
+      <ProductPage />
+      {/* <Router>
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route path="/about-us" element={<About />} />
@@ -79,7 +81,7 @@ function App() {
             element={<AromaticChemicalsPage />}
           />
         </Routes>
-      </Router>
+      </Router> */}
       <Footer />
     </div>
   );
