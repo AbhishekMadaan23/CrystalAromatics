@@ -29,8 +29,7 @@ function App() {
     <div className="App">
       <Header />
       <Navbar />
-      <ProductPage />
-      {/* <Router>
+      <Router>
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route path="/about-us" element={<About />} />
@@ -80,8 +79,9 @@ function App() {
             path="/aromatic-chemicals"
             element={<AromaticChemicalsPage />}
           />
+          <Route path="/essential-oils/:name" element={<ProductPage />} />
         </Routes>
-      </Router> */}
+      </Router>
       <Footer />
     </div>
   );

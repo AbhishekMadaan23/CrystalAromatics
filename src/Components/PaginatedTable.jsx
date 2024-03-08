@@ -1,26 +1,24 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import Data from "../Data/ProductPageData";
 
 const ITEMS_PER_PAGE = 40;
 
+function getObjectByName(name) {
+  return Data.find((obj) => {
+    return obj.essentialName === name;
+  });
+}
+
 const PaginatedTable = ({ Heading, data }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const [hoveredRow, setHoveredRow] = useState(null);
-
-  const handleMouseEnter = (index) => {
-    setHoveredRow(index);
-    console.log("entered");
-  };
-
-  const handleMouseLeave = () => {
-    setHoveredRow(null);
-    console.log("exit");
-  };
 
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const selectedItems = data.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
   const totalPages = Math.ceil(data.length / ITEMS_PER_PAGE);
 
+  const [routeObject, setRouteObject] = useState(null);
   return (
     <div>
       <div className="w-[80vw] mx-auto  py-5 ">
@@ -61,9 +59,6 @@ const PaginatedTable = ({ Heading, data }) => {
             <th className="px-6 py-3 text-center text-lg md:text-xl font-bold text-gray-700 uppercase tracking-wider">
               Botanical Name
             </th>
-            <th className=" hidden lg:block px-6 py-3 text-center text-lg md:text-xl font-bold text-gray-700 uppercase tracking-wider">
-              Uses
-            </th>
           </tr>
         </thead>
         <tbody className="bg-white divide-y divide-gray-200">
@@ -75,26 +70,27 @@ const PaginatedTable = ({ Heading, data }) => {
               <td className="px-6 py-4 font-semibold ">
                 {startIndex + index + 1}
               </td>
-              <td className="px-6 py-4 font-semibold ">{item.essentialName}</td>
-              <td className="px-6 py-4 font-semibold ">{item.botanicalName}</td>
-              <td
-                className=" hidden lg:block px-6 py-4 font-semibold cursor-pointer"
-                onMouseEnter={() => handleMouseEnter(index)}
-                onMouseLeave={handleMouseLeave}
-              >
-                {item?.uses?.length > 6 ? (
-                  <span>
-                    {item?.uses.slice(0, 30) + "...."}
-                    {hoveredRow === index && (
-                      <div className="absolute z-10 right-0 text-sm  bg-white opacity-75 p-2 border rounded-xl border-gray-100 leading-6 shadow-md w-52 overflow-visible ">
-                        {item?.uses}
-                      </div>
-                    )}
-                  </span>
-                ) : (
-                  item?.uses
-                )}
+              <td className="px-6 py-4 font-semibold ">
+                <div className="flex items-center justify-center gap-4">
+                  {item.essentialName}
+                  {getObjectByName(item.essentialName) ? (
+                    <Link to={`/essential-oils/${item.essentialName}`}>
+                      <img
+                        className="hover:scale-150 transition ease-in-out duration-300"
+                        style={{
+                          height: "12px",
+                          width: "",
+                          backgroundColor: "green",
+                        }}
+                        src="https://w7.pngwing.com/pngs/274/440/png-transparent-external-link-heroicons-ui-icon.png"
+                      />
+                    </Link>
+                  ) : (
+                    ""
+                  )}
+                </div>
               </td>
+              <td className="px-6 py-4 font-semibold ">{item.botanicalName}</td>
             </tr>
           ))}
         </tbody>
