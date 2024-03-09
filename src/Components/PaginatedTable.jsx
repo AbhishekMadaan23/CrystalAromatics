@@ -59,6 +59,9 @@ const PaginatedTable = ({ Heading, data }) => {
             <th className="px-6 py-3 text-center text-lg md:text-xl font-bold text-gray-700 uppercase tracking-wider">
               Botanical Name
             </th>
+            <th className="px-6 md:px-0 md:-mx-5 py-3 text-center text-lg md:text-xl font-bold text-gray-700 uppercase tracking-wider">
+              Additional Information
+            </th>
           </tr>
         </thead>
         <tbody className="bg-white divide-y divide-gray-200">
@@ -73,24 +76,20 @@ const PaginatedTable = ({ Heading, data }) => {
               <td className="px-6 py-4 font-semibold ">
                 <div className="flex items-center justify-center gap-4">
                   {item.essentialName}
-                  {getObjectByName(item.essentialName) ? (
-                    <Link to={`/essential-oils/${item.essentialName}`}>
-                      <img
-                        className="hover:scale-150 transition ease-in-out duration-300"
-                        style={{
-                          height: "12px",
-                          width: "",
-                          backgroundColor: "green",
-                        }}
-                        src="https://w7.pngwing.com/pngs/274/440/png-transparent-external-link-heroicons-ui-icon.png"
-                      />
-                    </Link>
-                  ) : (
-                    ""
-                  )}
                 </div>
               </td>
               <td className="px-6 py-4 font-semibold ">{item.botanicalName}</td>
+              <td className="px-6 md:-mx-8 md:px-0 py-4 font-semibold text-gray-600  ">
+                {getObjectByName(item.essentialName) ? (
+                  <Link to={`/essential-oils/${item.essentialName}`}>
+                    <span className="text-sm hover:scale-125 hover:underline hover:text-gray-900">
+                      click here...
+                    </span>
+                  </Link>
+                ) : (
+                  ""
+                )}
+              </td>
             </tr>
           ))}
         </tbody>

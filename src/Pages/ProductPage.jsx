@@ -19,17 +19,17 @@ const ProductPage = () => {
   return (
     <div>
       {/* CONTENT */}
-      <div className=" flex flex-col px-4 md:flex-row  md:w-3/4 md:mx-auto md:gap-4">
+      <div className=" flex flex-col px-4 md:flex-row  md:w-[90%] md:mx-auto md:gap-2 ">
         {/* IMAGE DIV */}
-        <div className="flex justify-center h-[50vh] md:flex-1 md:h-[100vh] items-center my-4 ">
+        <div className="flex justify-center h-[50vh] md:w-[30%]  md:h-[100vh] items-center my-4 ">
           <div className="h-1/2 w-[70%] flex justify-center items-center">
             <img className=" " src={routeObject?.img} alt="" />
           </div>
         </div>
         {/* CONTENT DIV */}
-        <div className="md:flex-1">
+        <div className="  md:w-[70%]">
           {/* PRODUCT NAME */}
-          <h1 className="font-bold underline text-xl text-gray-800 mt-4">
+          <h1 className="font-bold underline text-xl md:text-3xl  text-gray-800 mt-6 mb-2">
             {name}
           </h1>
           {/* PRODUCT INFO */}
