@@ -133,18 +133,18 @@ export default function Navbar() {
           <a href="/" className="text-lg font-semibold leading-6 text-gray-900">
             Home
           </a>
-          <a
-            href="/products"
-            className="text-lg font-semibold -mr-8 leading-6 text-gray-900"
-          >
-            Products
-          </a>
 
           <Popover
-            className="relative"
+            className="relative flex items-center gap-x-10"
             onMouseEnter={() => setIsOpen(true)}
             onMouseLeave={() => setIsOpen(false)}
           >
+            <a
+              href="/products"
+              className="text-lg font-semibold -mr-8 leading-6 text-gray-900"
+            >
+              Products
+            </a>
             <Popover.Button className="flex mt-0.5 items-center text-lg font-semibold leading-6 text-gray-900">
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-gray-400"
@@ -162,11 +162,7 @@ export default function Navbar() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel
-                className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5"
-                onMouseEnter={() => setIsOpen(true)}
-                onMouseLeave={() => setIsOpen(false)}
-              >
+              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
                   {products.map((item) => (
                     <div
