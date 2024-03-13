@@ -77,11 +77,13 @@ export default function ProductsPage() {
             {callouts.map((callout) => (
               <div key={callout.name} className="group relative ">
                 <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                  <img
-                    src={callout.imageSrc}
-                    alt={callout.imageAlt}
-                    className="h-full w-full object-cover object-center"
-                  />
+                  <a href={callout.href}>
+                    <img
+                      src={callout.imageSrc}
+                      alt={callout.imageAlt}
+                      className="h-full w-full object-cover object-center"
+                    />
+                  </a>
                 </div>
                 <h3 className="mt-6 mb-8 text-lg lg:text-xl shadow-md rounded-md p-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg hover:underline bold text-black">
                   <a href={callout.href}>

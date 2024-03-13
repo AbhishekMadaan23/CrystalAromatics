@@ -3,7 +3,7 @@ import PaginatedTableV3 from "../Components/PaginatedTableV3";
 import { AromatherapyOilData } from "../Data/Data";
 
 const AromatherapyOilPage = () => {
-  const Heading = "On The Basis of Category";
+  const Heading = "Aromatherapy Oils";
   return (
     <div>
       <PaginatedTableV3 Heading={Heading} data={AromatherapyOilData} />

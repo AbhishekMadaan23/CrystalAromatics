@@ -29,7 +29,7 @@ const products = [
     icon: CursorArrowRaysIcon,
   },
   {
-    name: "Arormatherapy Oils",
+    name: "Aromatherapy Oils",
     description: "",
     href: "/aromatherapy-oils",
     icon: CursorArrowRaysIcon,

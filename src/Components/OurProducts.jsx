@@ -92,11 +92,13 @@ export default function OurProducts() {
           {products.map((product) => (
             <div key={product.id} className="group relative">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-xl bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                <img
-                  src={product.imageSrc}
-                  alt={product.imageAlt}
-                  className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-                />
+                <a href={product.href}>
+                  <img
+                    src={product.imageSrc}
+                    alt={product.imageAlt}
+                    className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                  />
+                </a>
               </div>
               <div className="mt-4 flex justify-between">
                 <div className="w-full">

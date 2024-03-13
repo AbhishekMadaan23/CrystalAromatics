@@ -28,12 +28,13 @@ export default function Aboutus() {
               <br />
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-500">
-              For over two decades, our organization, Crystal Aromatics, have
-              been offering high end aroma therapy products to clients spread
-              across industry verticals. We have in our collection nearly 150
-              varieties of essential oils. Their extensive application as base
-              ingredient or fragrance enhancing channel have made them highly
-              sought after among our clients.
+              Welcome to the realm of Crystal Aromatics, where for over two
+              decades, we've been crafting sensory bliss through our exquisite
+              collection of 150 essential oils. Whether you're seeking base
+              ingredients or fragrance enhancements, our oils, cherished by
+              clients across industries, promise to elevate your experience to
+              new heights of aromatic excellence. Discover the essence of pure
+              luxury with Crystal Aromatics.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a
