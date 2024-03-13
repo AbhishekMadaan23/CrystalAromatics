@@ -14,8 +14,8 @@ const ProductPage = () => {
   useEffect(() => {
     const object = getObjectByName(name);
     setRouteObject(object);
+    window.scrollTo(0, 0);
   }, [name]);
-  console.log("///fffee", routeObject?.["refractiveIndexAt20°C"]);
   return (
     <div>
       {/* CONTENT */}

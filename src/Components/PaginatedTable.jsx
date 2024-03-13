@@ -83,7 +83,7 @@ const PaginatedTable = ({ Heading, data }) => {
                 {getObjectByName(item.essentialName) ? (
                   <Link to={`/essential-oils/${item.essentialName}`}>
                     <span className="text-sm hover:scale-125 hover:underline hover:text-gray-900">
-                      click here...
+                      read more...
                     </span>
                   </Link>
                 ) : (
