@@ -15,9 +15,9 @@ export default function Promo() {
             </p>
             <a
               href="/essential-oils"
-              className="inline-block mt-4 rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
+              className="inline-block  mt-4 rounded-md border-1 bg-blue-700 px-8 py-3 text-center font-medium text-white hover:bg-blue-800  hover:shadow-xl"
             >
-              Explore
+              Explore Our Collection
             </a>
           </div>
           <div>

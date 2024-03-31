@@ -1636,7 +1636,7 @@ const AromatherapyOilData = [
   {
     id: 113,
     essentialName: "Blends For Home",
-    botanicalName: "",
+    botanicalName: "Blends For Home",
   },
   {
     id: 114,

@@ -25,9 +25,11 @@ import FragrancesForPersonalFragrancesAerosolsAirFreshnersPage from "./Pages/Fra
 import ProductPage from "./Pages/ProductPage";
 
 function App() {
+  const pathName = window.location.pathname;
   return (
     <div className="App">
-      <Header />
+      {/* Header not shown on homepage */}
+      {pathName === "/" ? null : <Header />}
       <Navbar />
       <Router>
         <Routes>
