@@ -4,7 +4,7 @@ const Industries = () => {
   return (
     <div className="w-full ">
       <div className="w-full ">
-        <h1 className="text-center text-2xl lg:text-3xl font-bold p-4 pb-2">
+        <h1 className="text-center text-2xl lg:text-3xl font-bold p-4 pb-1">
           Industries We Serve
         </h1>
         <div className="text-center w-full mb-7">
@@ -12,7 +12,7 @@ const Industries = () => {
         </div>
       </div>
       <div className="w-full ">
-        <p className=" md:w-3/4 mx-2 sm:mx-auto text-black text-bold">
+        <p className=" md:w-3/4 mx-2 sm:mx-auto text-lg text-black leading-6 font-medium">
           Our wide range of Floral Water, Essential Oils, Absolutes, Spice Oils,
           Flower Oils/Flavors have immense application across industry
           verticals. With the growth of the awareness about the efficacy of
@@ -47,32 +47,21 @@ const Industries = () => {
             Food and Beverages Manufacturers
           </li>
         </ol> */}
-        <div className=" md:w-3/4 mx-2 sm:mx-auto ">
-          <ol class="flex flex-col  mx-auto items-start gap-4 ">
-            <li class="bg-white  shadow-sm rounded-md p-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-              <h1 className="text-bold text-xl ">Aroma therapists</h1>
-            </li>
-            <li class="bg-white shadow-sm rounded-md p-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-              <h1 className="text-bold text-xl ">Herbalists </h1>
-            </li>
-            <li class="bg-white shadow-sm rounded-md p-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-              <h1 className="text-bold text-xl "> Naturopaths </h1>
-            </li>
-            <li class="bg-white shadow-sm rounded-md p-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-              <h1 className="text-bold text-xl "> Medical </h1>
-            </li>
-            <li class="bg-white shadow-sm rounded-md p-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-              <h1 className="text-bold text-xl ">
-                {" "}
-                Cosmetic and toiletries manufacturers{" "}
-              </h1>
-            </li>
-            <li class="bg-white shadow-sm rounded-md p-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-              <h1 className="text-bold text-xl "> Soap Manufacturers </h1>
-            </li>
-            <li class="bg-white shadow-sm rounded-md p-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-              <h1 className="text-bold text-xl "> Candle makers </h1>
-            </li>
+
+        <div className=" md:w-3/4 mx-2 md:my-8 sm:mx-auto text-lg  text-bold text-black">
+          <ol class="list-decimal flex flex-col mx-auto items-start gap-4">
+            <li>Aroma therapists</li>
+
+            <li>Herbalists</li>
+
+            <li>Naturopaths</li>
+
+            <li>Medical</li>
+
+            <li>Cosmetic and toiletries manufacturers</li>
+
+            <li>Soap Manufacturers</li>
+            <li>Candle makers</li>
           </ol>
         </div>
       </div>

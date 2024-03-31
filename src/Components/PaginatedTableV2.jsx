@@ -11,7 +11,7 @@ const PaginatedTable = ({ Heading, data }) => {
   const totalPages = Math.ceil(data.length / ITEMS_PER_PAGE);
 
   return (
-    <div>
+    <div className="pb-10">
       <div className="w-[80vw] mx-auto  py-5 ">
         <h2 class="text-2xl font-bold leading-8 text-gray-900 sm:truncate sm:text-4xl sm:tracking-tight px-3">
           {Heading}

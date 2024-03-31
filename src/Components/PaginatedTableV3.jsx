@@ -39,13 +39,7 @@ const PaginatedTableV3 = ({ Heading, data }) => {
       </div>
 
       <table className="min-w-[80vw] divide-y mx-auto divide-gray-200">
-        <thead className="bg-gray-100">
-          <tr>
-            <th className="px-6 py-3 text-center text-lg  md:text-xl font-bold text-gray-700 uppercase tracking-wider">
-              {Heading}
-            </th>
-          </tr>
-        </thead>
+        <thead className="bg-gray-100"></thead>
         <tbody className="bg-white divide-y divide-gray-200">
           {selectedItems.map((item, index) => (
             <tr
