@@ -28,13 +28,14 @@ export default function Aboutus() {
               <br />
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-500">
-              Welcome to the realm of Crystal Aromatics, where for over two
-              decades, we've been crafting sensory bliss through our exquisite
-              collection of 150 essential oils. Whether you're seeking base
-              ingredients or fragrance enhancements, our oils, cherished by
-              clients across industries, promise to elevate your experience to
-              new heights of aromatic excellence. Discover the essence of pure
-              luxury with Crystal Aromatics.
+              Step into the enchanting world of Crystal Aromatics, where the
+              magic of scent has danced for over two decades. With a treasure
+              trove of 150 essential oils, we weave dreams into reality,
+              elevating moments into memories with every drop. From crafting
+              base notes to enhancing fragrances, our oils, beloved by
+              aficionados across industries, promise an odyssey of aromatic
+              opulence. Crystal Aromatics – where every breath is an invitation
+              to indulge in blissful sophistication.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 const ITEMS_PER_PAGE = 40;
 
 const PaginatedTable = ({ Heading, data }) => {
+  const dataLength = data.length;
   const [currentPage, setCurrentPage] = useState(1);
 
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
@@ -61,8 +62,20 @@ const PaginatedTable = ({ Heading, data }) => {
               <td className="px-6 py-4 font-semibold ">{item.essentialName}</td>
             </tr>
           ))}
+          {dataLength <= 40 && (
+            <tr>
+              <td></td>
+              <td className="px-6 py-4  text-right  ">
+                For more products, please{" "}
+                <label className="text-green-800 underline font-semibold cursor-pointer">
+                  <a href="/get-in-touch">Contact Us.</a>
+                </label>
+              </td>
+            </tr>
+          )}
         </tbody>
       </table>
+
       <div className="flex justify-around items-center mt-4 mb-8">
         <button
           className="py-2 px-4 bg-indigo-700 text-white rounded hover:bg-white hover:text-indigo-700 border-2 border-indigo-700"

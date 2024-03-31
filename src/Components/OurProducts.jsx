@@ -73,7 +73,7 @@ const products = [
   {
     id: 1,
     name: "Aromatics Chemicals",
-    href: "#",
+    href: "/aromatic-chemicals",
     imageSrc: "https://4.imimg.com/data4/BR/XI/MY-798705/bay-oil-250x250.jpg",
     imageAlt: "Aromatics Chemicals",
     price: "",
